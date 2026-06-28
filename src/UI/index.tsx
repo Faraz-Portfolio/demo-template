@@ -15,6 +15,12 @@ export function UI() {
       >
         by {author.name} ({author.email})
       </a>
+      <a
+        href="https://farazzshaikh.com/demos/"
+        className="pointer-events-auto mt-3 block w-fit rounded-md border border-white/20 px-3 py-1.5 text-xs text-white/80 transition hover:bg-white/10"
+      >
+        View all demos →
+      </a>
     </div>
   );
 }
