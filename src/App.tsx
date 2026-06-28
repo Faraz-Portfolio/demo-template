@@ -1,4 +1,5 @@
 import { Inspector } from "@/Inspector";
+import { UI } from "@/UI";
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import { Canvas, extend } from "@react-three/fiber";
 import * as THREE from "three/webgpu";
@@ -8,6 +9,7 @@ extend(THREE as any);
 export default function App() {
   return (
     <>
+      <UI />
       <Canvas
         shadows
         gl={async (props) => {

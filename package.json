@@ -1,5 +1,6 @@
 {
   "name": "demo-template",
+  "description": "A template for creating a React + Three.js WebGPU + TailwindCSS project with Vite. Hosted on GitHub Pages.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
