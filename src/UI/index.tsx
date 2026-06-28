@@ -1,6 +1,10 @@
 import { author, description, name } from "../../package.json";
 
+const isInIframe = window.self !== window.top;
+
 export function UI() {
+  if (isInIframe) return null;
+
   return (
     <div className="pointer-events-none fixed bottom-0 left-0 p-6 text-white select-none">
       <h1 className="text-lg font-semibold tracking-tight">{name}</h1>
